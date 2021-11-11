@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://zequanh:de7412369@cluster0.7bjbj.mongodb.net/alety?retryWrites=true&w=majority",
+  "jwtSecret": "secret"
+}

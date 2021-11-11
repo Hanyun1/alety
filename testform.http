@@ -1,0 +1,33 @@
+POST http://localhost:4000/app/contact
+Content-Type: application/json
+
+//structure for http://localhost:4000/api/contact
+{   
+	"star" : true,
+    "fullname": "aleaakty",
+    "emailAddress": "asdadjsfdsa",
+    "gender":"man",
+    "age":4,
+    "address":"asd",
+    "phoneNumber":"234542",
+    "description":"asdfa",
+	"birthday":"2021-10-03"
+}
+
+
+//structure for http://localhost:4000/api/event//eventcreate
+{   
+	"eventname":"birthday",
+	"Address":"asdf",
+	"eventTime":"2021-10-03",
+	"star":true
+}
+
+//structrue for http://localhost:4000/api/users
+{   
+	  "username":"testuser1",
+
+    "emailAddress": "1as@q.com",
+	"password":"asddasda",
+	"birthday":"2021-10-04"
+}
